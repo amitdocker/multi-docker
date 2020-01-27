@@ -13,8 +13,8 @@ class App extends Component {
           <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
             <h1 className="App-title">Fib Calculator</h1>
-            <Link to="/">Index</Link>
-            <Link to="/otherpage">About Us</Link>
+            <Link to="/">Index git Area</Link>
+            <Link to="/otherpage">About Us git Area</Link>
           </header>
           <div>
             <Route exact path="/" component={Fib} />
